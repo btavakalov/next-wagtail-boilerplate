@@ -1,0 +1,21 @@
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.title {
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.bookmark {
+  cursor: pointer;
+}
+
+.active {
+  color: rebeccapurple;
+}

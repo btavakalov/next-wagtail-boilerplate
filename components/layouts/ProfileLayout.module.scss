@@ -1,0 +1,27 @@
+.content {
+  background: white;
+  padding: 16px 6px;
+  flex-grow: 1;
+  max-width: 1008px;
+
+  @include tablet {
+    padding: 20px 24px;
+  }
+
+  @include desktop {
+    padding: 20px 44px;
+  }
+}
+
+.layout {
+  background: #F3F3F3;
+  min-height: 100vh;
+}
+
+.mainLayout {
+  @include desktop {
+    display: flex;
+    padding-left: 64px;
+  }
+
+}
